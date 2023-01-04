@@ -39,6 +39,10 @@ nav {
     font-size: 35px;
 }
 
+.socials li:nth-child(1) {
+    color: #ffffff;
+}
+
 .socials li:nth-child(2) {
     background-color: rgb(53, 67, 133);
     height: 60px;
@@ -117,6 +121,11 @@ nav {
     display: inline-block;
 }
 
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .top-pic {
     background-image: url(../images/top-image\ copy.png);
     height: 350px;
@@ -139,7 +148,7 @@ nav {
 .news > div > article {
     background-color: #ffffff;
     text-align: left;
-    height: 345px;
+    height: fit-content;
     
 }
 
@@ -336,4 +345,83 @@ aside {
     height: 40px;
     font-size: 20px;
     margin-right: -80px;
+}
+
+@media (max-width: 768px){
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.top-pic > figure > img {
+    width: 100%;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+
+.pros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lance {
+    width: 275px;
+}
+
+.rodney {
+    width: 275px;
+}
+
+.tommy {
+    width: 275px;
+    height: 165px;
+    background-image: url(../images/sk8er-2\ copy\ 2.png);
+}
+
+.steve {
+    width: 275px;
+    height:165px;
+    /* transform: translateY(100%); */
+    margin-top: 0;
+}
+
+.steve figcaption {
+    margin-top: 40px;
+}
+
+.tommy figcaption {
+    /* transform: translateY(-50%); */
+    margin-top: 40px;
+}
+
+.contact-submit {
+    width: 100%;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us {
+    width: 100%;
+}
+
+.contact-info {
+    width: 100%;
+}
+
+nav ul li:nth-child(4) {
+    margin-left: 20px;
+}
+
+
+
 }
